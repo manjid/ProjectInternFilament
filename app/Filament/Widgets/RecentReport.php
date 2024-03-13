@@ -11,7 +11,7 @@ class RecentReport extends BaseWidget
     protected function getStats(): array
     {
         return [
-            Stat::make(label:'Total Reports', value: report::count())
+            Stat::make(label:'Total Reports', value: '1')
         ];
     }
 }
